@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Website</title>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <!-- bootstrap css -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+      <!-- font asweme -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+      <!-- fancybox -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+      <!-- swiper slider -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css" />
+      <!-- aos -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+      <!-- style css -->
+      <link rel="stylesheet" href="./dist/css/style.css">
+   </head>
+   <body>
+    <!-- start header  -->
+    <header class="header">
+       <div class="container">
+          <nav class="navbar navbar-expand-md">
+             <a href="index.html" class="navbar-brand">
+                <img class="logo" src="./images/logo.png" alt="" />
+                <img class="sticky-logo" src="./images/sticky-logo.png" alt="" />
+             </a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+                <span class="navbar-toggler-icon">
+                    <img src="./images/collapse-logo.png" alt="" />
+                </span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="navbar-nav">
+                   <li class="nav-item current-menu-item"><a href="#" class="nav-link">Home</a></li>
+                   <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Portfolio</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="nav-link">Item 1</a></li>
+                            <li><a href="#" class="nav-link">Item 2</a></li>
+                        </ul>
+                    </li>
+                   <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                   <li class="nav-item"><a href="#" class="nav-link">Testimonials</a></li>
+                   <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+             </div>
+          </nav>
+       </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start banner -->
+    <section class="banner-sec">
+        <div class="swiper banner-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><div class="ban-img"><img src="./images/banner-image1.jpg" alt="" /></div></div>
+                <div class="swiper-slide"><div class="ban-img"><img src="./images/banner-image3.jpg" alt="" /></div></div>
+                <div class="swiper-slide"><div class="ban-img"><img src="./images/banner-image2.jpg" alt="" /></div></div>
+            </div>
+        </div>
+        <div class="banner-content">
+            <div class="container">
+                <h1 data-aos="fade-right">Photography For Adventurous Souls & Rebels At Heart</h1>
+                <div class="ban-btm">
+                    <a href="#" class="btn"  data-aos="fade-right">Read more</a>
+                    <p>Lorem Ipsum is simply dummy</p>
+                </div>
+                <div class="slider-navigation-innr banner-navigation">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end banner -->
+
+    <!-- gallery section -->
+    <section class="gallery-sec common-gap">
+        <div class="container">
+            <div class="row gallery-otr">
+                <div class="col-md-4 gallery-innr">
+                    <a href="./images/gallery-1.jpg" class="gallery-img"  data-fancybox="group"  data-aos="fade-down">
+                        <img src="./images/gallery-1.jpg" alt="" />
+                    </a>
+                    <a href="./images/gallery-2.jpg" class="gallery-img"  data-fancybox="group"  data-aos="fade-up">
+                        <img src="./images/gallery-2.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-innr">
+                    <a href="./images/gallery-3.jpg" class="gallery-img"  data-fancybox="group"  data-aos="fade-up">
+                        <img src="./images/gallery-3.jpg" alt="" />
+                    </a>
+                    <a href="./images/gallery-4.jpg" class="gallery-img"  data-fancybox="group"  data-aos="fade-down">
+                        <img src="./images/gallery-4.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-innr">
+                    <a href="./images/gallery-5.jpg" class="gallery-img" data-fancybox="group"  data-aos="fade-down">
+                        <img src="./images/gallery-5.jpg" alt="" />
+                    </a>
+                    <a href="./images/gallery-6.jpg" class="gallery-img" data-fancybox="group"  data-aos="fade-up">
+                        <img src="./images/gallery-6.jpg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+
+    <!-- testimonial section -->
+    <section class="testimonial-sec back common-gap">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 testimonial-content" data-aos="fade-right">
+                    <h4>Testimonials</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+                <div class="col-lg-8 testimonial-right" data-aos="fade-left">
+                    <div class="swiper testimonial-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><div class="testimonial-img"><img src="./images/testimonial-img1.jpg" alt="" /></div></div>
+                            <div class="swiper-slide"><div class="testimonial-img"><img src="./images/testimonial-img2.jpg" alt="" /></div></div>
+                            <div class="swiper-slide"><div class="testimonial-img"><img src="./images/testimonial-img3.jpg" alt="" /></div></div>
+                        </div>
+                    </div>
+                    <div class="slider-navigation-innr color testimonial-navigation">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+
+    <!-- back section -->
+    <section class="back-sec" style="background-image: url('./images/back-img.jpg');">
+        <div class="container">
+            <h2 data-aos="fade-down">Do it your way. Elope in your dream location</h2>
+        </div>
+    </section>
+    <!-- end section -->
+
+    <!-- content section -->
+    <section class="content-sec back common-gap">
+        <div class="container text-center">
+            <h2 data-aos="fade-down">Pecific Northwest or Anywhere Beyond</h2>
+            <p data-aos="fade-down" data-aos-delay="200">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+            <a href="javascript:void(0);" class="btn" data-aos="fade-down" data-aos-delay="300">Button</a>
+        </div>
+    </section>
+    <!-- end section -->
+
+    <!-- image slider section -->
+    <section class="img-slider-sec common-gap">
+        <div class="swiper image-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><div class="image-slider-img"><img src="./images/image1.jpg" alt="" /></div></div>
+                <div class="swiper-slide"><div class="image-slider-img"><img src="./images/image2.jpg" alt="" /></div></div>
+                <div class="swiper-slide"><div class="image-slider-img"><img src="./images/image3.jpg" alt="" /></div></div>
+                <div class="swiper-slide"><div class="image-slider-img"><img src="./images/image4.jpg" alt="" /></div></div>
+                <div class="swiper-slide"><div class="image-slider-img"><img src="./images/image5.jpg" alt="" /></div></div>
+                <div class="swiper-slide"><div class="image-slider-img"><img src="./images/image6.jpg" alt="" /></div></div>
+                <div class="swiper-slide"><div class="image-slider-img"><img src="./images/image7.jpg" alt="" /></div></div>
+            </div>
+        </div>
+        <div class="slider-navigation-innr color image-slider-navigation">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <!-- end section -->
+
+    <!-- content section -->
+    <section class="content-sec back common-gap">
+        <div class="container">
+            <div class="content-innr text-center">
+                <p data-aos="fade-down">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <h5 data-aos="fade-down" data-aos-delay="200">Ralph Waldo emerson</h5>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+
+    <!-- about section -->
+    <section class="about-sec common-gap">
+        <div class="container">
+            <div class="row align-items-center about-otr">
+                <div class="col-lg-6 about-innr">
+                    <div class="about-img" data-aos="fade-right">
+                        <figure><img src="./images/about-img.jpg" alt="" /></figure>
+                    </div>
+                </div>
+                <div class="col-lg-6 about-innr">
+                    <h2 data-aos="fade-left" data-aos-delay="200">Welcome Friend, My Name Is Vanessa</h2>
+                    <div  data-aos="fade-left" data-aos-delay="300">
+                        <p>Duis accumsan nulla purus, vel consectetur mi tincidunt eu. Pellentesque nulla est, sodales non tempus ut, faucibus id mi. Phasellus at vehicula lacus. Aenean et dui faucibus, commodo nulla vel, pellentesque nisi. Etiam blandit, magna nec eleifend faucibus, mi tortor pulvinar justo, in rutrum tortor ipsum in justo. Aenean hendrerit viverra gravida. Etiam massa dolor, tempus quis placerat sit amet, posuere in lacus. Fusce turpis mi, ornare a aliquet vitae, tincidunt ac ligula. Donec porttitor sapien et felis vestibulum, vitae imperdiet purus iaculis. Duis sit amet tortor pretium, pulvinar massa vel, fermentum urna. Donec ac vehicula justo. </p>
+                        <p>Duis accumsan nulla purus, vel consectetur mi tincidunt eu. Pellentesque nulla est, sodales non tempus ut, faucibus id mi. Phasellus at vehicula lacus. Aenean et dui faucibus, commodo nulla vel, pellentesque nisi. Etiam blandit, magna nec eleifend faucibus, mi tortor pulvinar justo, in rutrum tortor ipsum in justo. </p>
+                    </div>
+                    <a href="javascript:void(0);" class="btn mt-5"  data-aos="fade-left" data-aos-delay="400">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+
+    <!-- contact section -->
+    <section class="contact-sec common-gap no-gap-top">
+        <div class="container">
+            <div class="row contact-otr align-items-center">
+                <div class="col-lg-6">
+                    <div  data-aos="fade-right">
+                        <h3>Let’s talk.</h3>
+                        <p class="sub-para">Lorem ipsum dolor sit amet consectetur. Nisi fringilla a sit ut. Urna odio in pretium magna convallis malesuada adipiscing feugiat. Sit ipsum egestas integer eget.</p>
+                        <ul class="contact-details">
+                            <li>
+                                <div class="contact-icon">
+                                    <span><i class="fa-solid fa-phone"></i></span>
+                                </div>
+                                <div class="contact-txt">
+                                    <h4>Give us a call at:</h4>
+                                    <a href="tel:0123456789">+91 0123456789</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contact-icon">
+                                    <span><i class="fa-solid fa-envelope"></i></span>
+                                </div>
+                                <div class="contact-txt">
+                                    <h4>Drop us an email at:</h4>
+                                    <a href="mailto:abc@gmail.com">abc@gmail.co</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form" data-aos="fade-left">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your Name" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="tel" placeholder="Your Phone Number" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" placeholder="Your Email ID" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea placeholder="Message" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <input type="submit" value="Submit" class="btn submit-btn" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+
+    <!-- footer -->
+    <footer class="footer back">
+        <div class="container">
+            <ul class="social-icon">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+            <ul class="footer-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-wrapper">
+                    <p>© PHOTOGRAPHY.COM 2024 . All rights reserved.</p>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- script -->
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- fancybox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+    <!-- swiper slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js"></script>
+    <!-- aos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- custom js -->
+    <script src="./js/custom.js"></script>
+ </body>
+</html>
